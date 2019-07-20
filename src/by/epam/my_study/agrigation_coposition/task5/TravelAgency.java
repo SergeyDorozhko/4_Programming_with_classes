@@ -126,7 +126,7 @@ public class TravelAgency {
         }
 
         if(!isFind){
-            System.out.println("There is no one vouncher with duration from " + durationMin + " to " + durationMax + " days");
+            System.out.println("There is no one vouncher with this filter");
         }
     }
 
@@ -143,7 +143,7 @@ public class TravelAgency {
         }
 
         if(!isFind){
-            System.out.println("There is no one vouncher with duration from " + durationMin + " to " + durationMax + " days");
+            System.out.println("There is no one vouncher with this filter");
         }
     }
 }
